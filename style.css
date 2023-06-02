@@ -114,6 +114,8 @@ body {
     height: 474px;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
   }
 
   .project-card_image {
