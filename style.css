@@ -199,7 +199,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 100px;
+    position: relative;
   }
 
   .about-me h2 {
@@ -208,6 +209,26 @@ body {
     font-weight: 700;
     line-height: 52px;
     color: #172b4d;
+  }
+
+  .background-top-right {
+    position: absolute;
+    top: -75px;
+    right: 0;
+    width: 68px;
+    height: 127px;
+  }
+
+  .background-bottom-left {
+    position: absolute;
+    bottom: 66rem;
+    left: 0;
+    width: 127px;
+    height: 68px;
+  }
+
+  .about-button {
+    margin: 40px 0;
   }
 
   .skills {
