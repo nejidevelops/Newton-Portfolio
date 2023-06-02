@@ -217,6 +217,8 @@ body {
     right: 0;
     width: 68px;
     height: 127px;
+    background-image: url('./images/Mask Group.png');
+    background-size: cover;
   }
 
   .background-bottom-left {
@@ -225,6 +227,8 @@ body {
     left: 0;
     width: 127px;
     height: 68px;
+    background-image: url('./images/Frame.svg');
+    background-size: cover;
   }
 
   .about-button {
