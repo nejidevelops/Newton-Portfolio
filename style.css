@@ -223,7 +223,7 @@ body {
 
   .background-bottom-left {
     position: absolute;
-    bottom: 66rem;
+    top: 15rem;
     left: 0;
     width: 5.94rem;
     height: 4.25rem;
@@ -298,5 +298,31 @@ body {
     padding: 12px 10px;
     background: #fff;
     border-radius: 8px;
+  }
+}
+
+@media (min-width: 600px) {
+  .background-bottom-left {
+    top: 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1028px) {
+  .project-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
