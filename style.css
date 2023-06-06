@@ -340,10 +340,27 @@ body {
     width: 100%;
     border: 1px solid #60c095;
     border-radius: 4px;
+    resize: both;
+    overflow: auto;
   }
 
   .contact-me form button {
     margin-bottom: 40px;
+  }
+
+  footer {
+    position: relative;
+  }
+
+  footer .right-background {
+    position: absolute;
+    top: -4.69rem;
+    right: -0.0625rem;
+    width: 4.25rem;
+    height: 10.94rem;
+    background-image: url('./images/Frame\ \(1\).svg');
+    background-size: cover;
+    background-position: right bottom;
   }
 
   footer p {
@@ -355,7 +372,7 @@ body {
     color: #42526e;
   }
 
-  footer div {
+  footer .social-icons {
     margin-bottom: 20px;
   }
 }
