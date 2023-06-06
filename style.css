@@ -299,6 +299,28 @@ body {
     background: #fff;
     border-radius: 8px;
   }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .contact-me h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin: 0 80px;
+  }
+
+  .contact-me form input {
+    display: block;
+  }
 }
 
 @media (min-width: 600px) {
