@@ -354,6 +354,10 @@ body {
     text-align: center;
     color: #42526e;
   }
+
+  footer div {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 600px) {
