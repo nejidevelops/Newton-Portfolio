@@ -321,6 +321,21 @@ body {
   .contact-me form input {
     display: block;
   }
+
+  footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-align: center;
+
+    /* Neutrals/N500 */
+
+    color: #42526E;
+  }
 }
 
 @media (min-width: 600px) {
