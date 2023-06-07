@@ -21,7 +21,7 @@
 <path d="M259.63 -213.296L461.383 54.0136" stroke="#A5ADBA" stroke-miterlimit="10" stroke-linecap="round" stroke-dasharray="1 1"/>
 <g clip-path="url(#clip0_34_2069)">
 <path d="M1114.27 300.424L1232.14 178.735L1403.88 221.388L1285.33 343.039L1114.27 300.424Z" fill="#C5E9DA" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
-<path d="M1285.33 343.039L1403.88 221.388L1440.51 388.633L1330.23 507.573L1285.33 343.039Z" fill="white" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
+<path d="M1285.33 343.039L1403.88 221.389L1440.51 388.633L1330.23 507.573L1285.33 343.039Z" fill="white" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
 <path d="M1285.33 343.038L1213.12 406.489L1330.23 507.572L1285.33 343.038Z" fill="white" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
 <path d="M1213.12 406.49L1114.27 300.424L1285.33 343.039L1213.12 406.49Z" fill="white" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
 <path d="M1330.23 507.573L1158.14 461.18L1213.12 406.49L1330.23 507.573Z" fill="#C5E9DA" stroke="#36B37E" stroke-width="2.29137" stroke-miterlimit="10" stroke-linejoin="round"/>
@@ -115,7 +115,7 @@
 <path d="M1030.96 29.1738L1029.09 -3.50869" stroke="#36B37E" stroke-width="1.51665" stroke-miterlimit="10"/>
 <path d="M909.495 -40.1946L953.99 -11.2953L965.004 1.60142L953.453 10.2439L908.71 -26.2519L909.495 -40.1946Z" fill="white" stroke="#36B37E" stroke-width="1.51665"/>
 <path d="M983.322 80.1299L983.655 30.7019" stroke="#36B37E" stroke-width="1.51665" stroke-miterlimit="10"/>
-<path d="M921.147 -23.9379L908.272 -30.6572L904.031 47.8114L949.487 91.9092L953.433 11.2053L947.717 1.88494L921.147 -23.9379Z" fill="#172B4D"/>
+<path d="M921.147 -23.9379L908.272 -30.6572L904.031 47.8114L949.487 91.9092L953.433 11.2053L947.717 1.88493L921.147 -23.9379Z" fill="#172B4D"/>
 </g>
 <g opacity="0.48" clip-path="url(#clip5_34_2069)">
 <path d="M544.805 625.853L628.36 676.82C628.36 676.82 640.732 686.566 629.099 707.557C617.466 728.548 603.373 723.457 603.373 723.457L516.596 673.513C516.596 673.513 506.313 664.044 516.625 644.624C528.555 622.038 544.805 625.853 544.805 625.853Z" fill="#C5E9DA" stroke="#36B37E" stroke-width="0.736762" stroke-miterlimit="10"/>
