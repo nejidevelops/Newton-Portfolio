@@ -216,6 +216,7 @@ body {
   }
 
   .background-top-right {
+    display: block;
     position: absolute;
     top: -4.69rem;
     right: 0;
@@ -223,6 +224,10 @@ body {
     height: 7.94rem;
     background-image: url('./images/Mask Group.png');
     background-size: cover;
+  }
+
+  .background-top-right2 {
+    display: none;
   }
 
   .background-bottom-left {
@@ -233,6 +238,10 @@ body {
     height: 4.25rem;
     background-image: url('./images/Frame.svg');
     background-size: cover;
+  }
+
+  .background-bottom-left2 {
+    display: none;
   }
 
   .about-button {
@@ -445,6 +454,44 @@ body {
     justify-content: center;
     align-items: center;
     width: 60%;
+  }
+
+  .projects {
+    margin-top: 7rem;
+  }
+
+  .projects .line {
+    display: none;
+  }
+
+  .background-top-right {
+    display: none;
+  }
+
+  .background-top-right2 {
+    display: block;
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    width: 15.25rem;
+    height: 16.94rem;
+    background-image: url('./images/Frame\ \(2\).svg');
+    background-size: cover;
+  }
+
+  .background-bottom-left {
+    display: none;
+  }
+
+  .background-bottom-left2 {
+    display: block;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    width: 19.94rem;
+    height: 10.25rem;
+    background-image: url('./images/illustration-about-me-2-desktop.svg');
+    background-size: cover;
   }
 
   .project-cards {
