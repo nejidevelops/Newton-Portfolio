@@ -384,6 +384,29 @@ body {
 }
 
 @media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+  }
+
+  .home {
+    background: url(./images/Header-llustration-desktop.svg) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  }
+
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
   }
