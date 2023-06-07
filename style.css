@@ -388,8 +388,32 @@ body {
     overflow-x: hidden;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .desktop-menu {
     display: block;
+    position: relative;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    gap: 25px;
+  }
+
+  .desktop-menu ul li a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #172b4d;
   }
 
   .mobile-menu-icon {
@@ -398,13 +422,13 @@ body {
 
   .home {
     background: url(./images/Header-llustration-desktop.svg) no-repeat;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
   }
 
   .project-cards {
