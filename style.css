@@ -394,6 +394,10 @@ body {
     color: #42526e;
   }
 
+  .footer-line {
+    display: none;
+  }
+
   footer .social-icons {
     margin-bottom: 20px;
   }
@@ -516,6 +520,17 @@ body {
   .left-background,
   .left-background2 {
     display: none;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  .footer-line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #dfe1e6;
   }
 }
 
