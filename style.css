@@ -469,6 +469,20 @@ body {
     width: 60%;
   }
 
+  .social-icons ul li a:hover img {
+    animation: increaseSize 3s;
+  }
+
+  @keyframes increaseSize {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.2);
+    }
+  }
+
   .projects {
     margin-top: 7rem;
   }
