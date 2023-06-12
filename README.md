@@ -12,6 +12,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -47,6 +48,9 @@ This is my portfolio project and it is based on this [figma design template](htt
 - **Changing figma to code**
 - **Creating mobile responsive portfolio website**
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Newton Portfolio](https://newtonombese.github.io/Newton-Portfolio/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
