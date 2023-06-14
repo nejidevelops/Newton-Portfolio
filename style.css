@@ -439,7 +439,14 @@ body {
     line-height: 32px;
     text-align: center;
     color: #172b4d;
-    background-color: #dbddf1;
+  }
+
+  .desktop-menu li a:hover {
+    color: #2b45bb;
+  }
+
+  .desktop-menu li a:active {
+    color: #5c6cb3;
   }
 
   .mobile-menu-icon {
