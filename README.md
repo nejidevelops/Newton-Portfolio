@@ -54,7 +54,7 @@ This is my portfolio project and it is based on this [figma design template](htt
 [Newton Portfolio](https://newtonombese.github.io/Newton-Portfolio/)
 
 ## 🎥 Video Walkthrough <a name="video-walkthrough"></a>
-[My Walkthrough Video](https://www.loom.com/share/afdb6ef0365d4229ad460aedda5d864f?sid=24a0aff4-1a91-438d-836c-0197f7136b30)
+[My Walkthrough Video](https://www.loom.com/share/a2e7750c5d5543e6b0276d4d803fe10e?sid=c0424726-25b8-41e5-9a9e-69bc3a55a5b6)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
