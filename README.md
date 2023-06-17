@@ -13,6 +13,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Video Walkthrough](#video-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -51,6 +52,9 @@ This is my portfolio project and it is based on this [figma design template](htt
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 [Newton Portfolio](https://newtonombese.github.io/Newton-Portfolio/)
+
+## 🎥 Video Walkthrough <a name="video-walkthrough"></a>
+[My Walkthrough Video](https://www.loom.com/share/afdb6ef0365d4229ad460aedda5d864f?sid=24a0aff4-1a91-438d-836c-0197f7136b30)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
