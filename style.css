@@ -17,7 +17,7 @@ body {
 }
 
 @media (min-width: 375px) {
-  .desktop-menu {
+  .nav-menu {
     display: none;
   }
 
@@ -414,12 +414,12 @@ body {
     list-style: none;
   }
 
-  .desktop-menu {
+  .nav-menu {
     display: block;
     position: relative;
   }
 
-  .desktop-menu ul {
+  .nav-menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,7 +430,7 @@ body {
     transform: translate(-50%, 50%);
   }
 
-  .desktop-menu ul li a {
+  .nav-menu ul li a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -441,11 +441,11 @@ body {
     color: #050e1d;
   }
 
-  .desktop-menu li a:hover {
+  .nav-menu li a:hover {
     color: #2b45bb;
   }
 
-  .desktop-menu li a:active {
+  .nav-menu li a:active {
     color: #5c6cb3;
   }
 
