@@ -16,6 +16,14 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+}
+
 @media (min-width: 375px) {
   .nav-menu {
     display: none;
@@ -25,6 +33,58 @@ body {
     display: flex;
     justify-content: end;
     padding: 20px 35px;
+  }
+
+  .mobile-menu-close-icon {
+    display: none;
+  }
+
+  .social-icons ul {
+    display: flex;
+    gap: 20px;
+    margin-top: 1.25rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons ul li a {
+    text-decoration: none;
+  }
+
+  .nav-menu.show {
+    display: block;
+    height: 100vh;
+    background: #fff;
+  }
+
+  .nav-menu.show ul {
+    margin-left: 28px;
+    list-style: none;
+    display: grid;
+    gap: 40px;
+    padding-top: 108px;
+  }
+
+  .nav-menu.show li a {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #3a4a42;
+  }
+
+  .mobile-menu-icon.show {
+    display: none;
+  }
+
+  .mobile-menu-close-icon.show {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 1.5rem;
+    right: 2.1875rem;
   }
 
   .home {
@@ -65,19 +125,6 @@ body {
     line-height: 28px;
     padding: 0 26px;
     color: #172b4d;
-  }
-
-  .social-icons ul {
-    display: flex;
-    gap: 20px;
-    margin-top: 1.25rem;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .social-icons ul li a {
-    text-decoration: none;
   }
 
   .down-arrow {
@@ -450,6 +497,10 @@ body {
   }
 
   .mobile-menu-icon {
+    display: none;
+  }
+
+  .mobile-menu-close-icon {
     display: none;
   }
 
