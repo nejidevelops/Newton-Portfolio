@@ -56,6 +56,17 @@ nav {
     display: block;
     height: 100vh;
     background: #fff;
+    animation: 2s slideIn ease-in alternate;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-50%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
   }
 
   .nav-menu.show ul {
