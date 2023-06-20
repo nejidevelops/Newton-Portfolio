@@ -27,7 +27,7 @@ mobileMenuLinks.forEach((link) => {
   });
 });
 
-// Mobile Popup
+// Popup
 const projectInfos = [
   {
     id: 0,
