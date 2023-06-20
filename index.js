@@ -28,6 +28,8 @@ mobileMenuLinks.forEach((link) => {
 });
 
 // Popup
+const card = document.getElementById('projects');
+
 const projectInfos = [
   {
     id: 0,
@@ -64,33 +66,22 @@ const projectInfos = [
 for (let i = 0; i < projectInfos.length; i += 1) {
   const projectCard = document.createElement('div');
   projectCard.classList.add('project-card');
-  let infoList = '';
-
-  for (let j = 0; j < projectInfos[i].info.length; j += 1) {
-    infoList += `<li>${projectInfos[i].info[j]}</li>`;
-  }
-
   let technologiesList = '';
-  for (let k = 0; k < projectInfos[i].technologies.length; k += 1) {
-    technologiesList += `<li>${projectInfos[i].technologies[k]}</li>`;
+  for (let j = 0; j < projectInfos[i].technologies.length;j += 1) {
+    technologiesList += `<li>${projectInfos[i].technologies[j]}</li>`;
   }
 
   projectCard.innerHTML = `
+    <div class="project-cards">
       <div class="project-card">
-      <img src="${projectInfos[i].image}" class="project-card_image">
-      <div class="project-card_details">
-        <div class="stacks">
+        <div class="project-card_image">
+          <img src="${projectInfos[i].image}" class="project-card_image">      
+        </div>
+        <div class="project-card_details">
           <h2>${projectInfos[i].title}</h2>
-        <div class="works_card_history">
-          <ul>
-            ${infoList}
-          </ul>
-        </div>
-        </div>
-        <div class="stacks">
-          <ul>
+          <div class="stacks">
             ${technologiesList}
-          </ul>
+          </div>
         </div>
         <button class="green-button">See project</button>
         </div>
@@ -100,3 +91,4 @@ for (let i = 0; i < projectInfos.length; i += 1) {
 
   card.appendChild(projectCard);
 }
+
