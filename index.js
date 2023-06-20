@@ -49,12 +49,12 @@ const projectInfos = [
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
   },
-    {
+  {
     id: 4,
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
   },
-    {
+  {
     id: 5,
     title: 'Multi-Post Stories Gain+Glory',
     technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
