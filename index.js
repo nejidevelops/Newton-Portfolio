@@ -112,5 +112,6 @@ for (let i = 0; i < arrayBtnPopup.length; i++) {
     btnCloseDetailsMobile.addEventListener('click', async () => {
       document.body.removeChild(cardWork);
     });
+    console.log('Hello')
   });
 }
