@@ -8,14 +8,12 @@ openHamburger.addEventListener('click', () => {
   navMenus.classList.add('show');
   openHamburger.classList.add('hide');
   closeHamburger.classList.add('show');
-  document.body.style.overflow = 'hidden';
 });
 
 closeHamburger.addEventListener('click', () => {
   navMenus.classList.remove('show');
   openHamburger.classList.remove('hide');
   closeHamburger.classList.remove('show');
-  document.body.style.overflow = 'auto';
 });
 
 mobileMenuLinks.forEach((link) => {
@@ -23,6 +21,5 @@ mobileMenuLinks.forEach((link) => {
     navMenus.classList.remove('show');
     openHamburger.classList.remove('hide');
     closeHamburger.classList.remove('show');
-    document.body.style.overflow = 'auto';
   });
 });
