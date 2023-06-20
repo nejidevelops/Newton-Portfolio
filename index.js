@@ -90,3 +90,27 @@ for (let i = 0; i < projectInfos.length; i += 1) {
 
   card.appendChild(projectCard);
 }
+
+// const poppedUpCard = document.querySelector('.popup-card');
+// const popUpButton = document.getElementsByClassName('green-button');
+// const popUpCard = document.createElement('div');
+
+// for (let i = 0; i < popUpButton.length; i += 1) {
+//   popUpButton[i].addEventListener('click', () => {
+//     console.log('Hello')
+//   });
+// }
+
+const arrayBtnPopup = document.querySelectorAll('.btn-popup');
+
+for (let i = 0; i < arrayBtnPopup.length; i++) {
+  arrayBtnPopup[i].addEventListener('click', () => {
+    const cardWork = document.createElement('div');
+    cardWork.innerHTML = cardWorkDetailsMobile(i);
+    document.body.appendChild(cardWork);
+    const btnCloseDetailsMobile = document.querySelector('.btn-close-details');
+    btnCloseDetailsMobile.addEventListener('click', async () => {
+      document.body.removeChild(cardWork);
+    });
+  });
+}
