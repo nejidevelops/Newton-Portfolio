@@ -70,15 +70,6 @@ nav {
   margin: 2.25rem 0;
 }
 
-.modal-image {
-  width: 100%;
-  height: 60vh;
-  justify-content: space-around;
-  border-radius: 8px;
-  object-fit: cover;
-  overflow: hidden;
-}
-
 @media (min-width: 375px) {
   .nav-menu {
     display: none;
@@ -346,6 +337,7 @@ nav {
   .mobile-buttons {
     display: flex;
     gap: 1.125rem;
+    justify-content: space-between;
     margin-bottom: 1.25rem;
   }
 
@@ -644,10 +636,14 @@ nav {
     width: 60%;
   }
 
-  .modal-image img {
-    display: flex;
+  .modal-image {
+    width: 100%;
+    height: 616px;
     justify-content: space-around;
-    height: 100vh;
+    border-radius: 8px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
   }
 
   .modal-button img {
@@ -695,10 +691,6 @@ nav {
     display: block;
     float: right;
     padding: 1.25rem;
-  }
-
-  .modal-image {
-    display: block;
   }
 
   .modal-mobile-image {
