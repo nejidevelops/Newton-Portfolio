@@ -33,7 +33,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #c1c7d0;
 }
 
 .modal-body {
@@ -43,6 +43,7 @@ nav {
   border: 1px solid #888;
   width: 80%;
   border-radius: 8px;
+  position: relative;
 }
 
 .technologies-list {
@@ -66,7 +67,7 @@ nav {
 }
 
 .card-p {
-  margin-top: 2.25rem;
+  margin: 2.25rem 0;
 }
 
 .modal-image {
@@ -314,20 +315,28 @@ nav {
     background-color: #5765dd;
   }
 
+  .modal-body {
+    position: relative;
+    margin: 5% auto;
+    padding: 0 1.25rem;
+  }
+
   .title-button h2 {
     text-align: left;
   }
 
-  .modal-image img {
-    display: flex;
-    justify-content: space-around;
-    height: 10vh;
-    width: 5vw;
+  .modal-image {
+    display: none;
+  }
+
+  .modal-mobile-image {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
   }
 
   .close-btn {
-    float: right;
-    padding-bottom: 1.25rem;
+    display: none;
   }
 
   .modal-button {
@@ -336,24 +345,24 @@ nav {
 
   .mobile-buttons {
     display: flex;
+    gap: 1.125rem;
+    margin-bottom: 1.25rem;
   }
 
   .mobile-button {
     display: flex;
-    width: fit-content;
+    width: auto;
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 1px;
     border: none;
-    padding: 1rem 1.5rem;
-    margin: 1.5rem 1rem;
+    padding: 0.5rem;
     border-radius: 3px;
     color: white;
     background-color: #36b37e;
   }
 
   .mobile-button img {
-    margin-left: 14px;
+    margin-left: 1rem;
   }
 
   .about-me {
@@ -682,6 +691,20 @@ nav {
     justify-content: space-between;
   }
 
+  .close-btn {
+    display: block;
+    float: right;
+    padding: 1.25rem;
+  }
+
+  .modal-image {
+    display: block;
+  }
+
+  .modal-mobile-image {
+    display: none;
+  }
+
   .modal-desktop {
     display: flex;
     flex-direction: row;
@@ -698,16 +721,18 @@ nav {
 
   .modal-button {
     display: flex;
-    width: fit-content;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    border: none;
-    padding: 1rem 1.5rem;
-    margin: 1.5rem 1rem;
-    border-radius: 3px;
-    color: white;
-    background-color: #36b37e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    padding: 12px;
+    margin: 1.5rem 0.5rem;
+    gap: 10px;
+    background: #36b37e;
+    border-radius: 8px;
   }
 
   .modal-button:hover {
