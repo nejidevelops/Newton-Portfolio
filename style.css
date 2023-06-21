@@ -24,6 +24,52 @@ nav {
   position: relative;
 }
 
+.popup-card {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #c1c7d0;
+}
+
+.modal-body {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 1.25rem;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.technologies-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 9px;
+  margin: 12px 0;
+}
+
+.technologies-list li {
+  padding: 8px 12px;
+  background: #ebecf0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #344563;
+}
+
+.card-p {
+  margin: 2.25rem 0;
+}
+
 @media (min-width: 375px) {
   .nav-menu {
     display: none;
@@ -258,6 +304,57 @@ nav {
 
   .green-button:active {
     background-color: #5765dd;
+  }
+
+  .modal-body {
+    position: relative;
+    margin: 5% auto;
+    padding: 0 1.25rem;
+  }
+
+  .title-button h2 {
+    text-align: left;
+  }
+
+  .modal-image {
+    display: none;
+  }
+
+  .modal-mobile-image {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .modal-button {
+    display: none;
+  }
+
+  .mobile-buttons {
+    display: flex;
+    gap: 1.125rem;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .mobile-button {
+    display: flex;
+    width: auto;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+    color: white;
+    background-color: #36b37e;
+  }
+
+  .mobile-button img {
+    margin-left: 1rem;
   }
 
   .about-me {
@@ -539,6 +636,20 @@ nav {
     width: 60%;
   }
 
+  .modal-image {
+    width: 100%;
+    height: 616px;
+    justify-content: space-around;
+    border-radius: 8px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+  }
+
+  .modal-button img {
+    margin-left: 14px;
+  }
+
   .social-icons ul li a:hover img {
     animation: increaseSize 3s;
   }
@@ -568,6 +679,63 @@ nav {
 
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .title-button {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .close-btn {
+    display: block;
+    float: right;
+    padding: 1.25rem;
+  }
+
+  .modal-mobile-image {
+    display: none;
+  }
+
+  .modal-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .mobile-button {
+    display: none;
+  }
+
+  .modal-buttons {
+    display: flex;
+  }
+
+  .modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    padding: 12px;
+    margin: 1.5rem 0.5rem;
+    gap: 10px;
+    background: #36b37e;
+    border-radius: 8px;
+  }
+
+  .modal-button:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
+  }
+
+  .modal-button:active {
+    background: #008552;
+    border-radius: 4px;
   }
 
   .background-top-right {
@@ -698,5 +866,11 @@ nav {
     height: 7.25rem;
     background-image: url('./images/illustration-2-contact-form-desktop.svg');
     background-size: cover;
+  }
+}
+
+@media (min-width: 365px) {
+  .modal-desktop {
+    display: none;
   }
 }
