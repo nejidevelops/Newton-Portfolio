@@ -186,5 +186,7 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.querySelector('.email-input').value;
   const correctEmail = document.querySelector('.email-input').value.toLowerCase();
-
+  if (email === correctEmail) {
+    form.submit();
+  }
 });
