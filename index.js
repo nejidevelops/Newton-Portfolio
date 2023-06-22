@@ -178,3 +178,13 @@ poppedUpCard.addEventListener('click', () => {
   poppedUpCard.style.display = 'none';
   popUpCard.remove();
 });
+
+// Validation
+const form = document.getElementById('myForm');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.querySelector('.email-input').value;
+  const correctEmail = document.querySelector('.email-input').value.toLowerCase();
+
+});
