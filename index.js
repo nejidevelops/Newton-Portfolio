@@ -186,11 +186,12 @@ form.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.querySelector('.email-input').value;
   const correctEmail = document.querySelector('.email-input').value.toLowerCase();
+
   if (email === correctEmail) {
     form.submit();
   } else {
     const errorMessage = document.querySelector('.error-message');
-    errorMessage.textContent = `Please enter the email in lowercase. ${correctEmail}`;
+    errorMessage.textContent = `Your form is not sent, please enter the email in lowercase. ${correctEmail}`;
     errorMessage.style.display = 'block';
   }
 });
