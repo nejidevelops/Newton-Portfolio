@@ -33,43 +33,43 @@ const card = document.getElementById('projectCards');
 const projectInfos = [
   {
     id: 0,
-    title: 'Multi-Post Stories Gain+Glory',
-    image: './images/modal-desktop.svg',
-    mobileImage: './images/pop-mobile.svg',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    liveLink: 'https://newtonombese.github.io/Newton-Portfolio/',
-    sourceLink: 'https://github.com/NewtonOmbese/Newton-Portfolio',
+    title: 'Devspark',
+    image: './images/devspark.png',
+    mobileImage: './images/devspark-mobile.png',
+    description: 'Devspark is an event site for the Devspark community. It helps inform users of upcoming events and more.',
+    technologies: ['CSS', 'Javascript', 'HTML'],
+    liveLink: 'https://newtonombese.github.io/Newton-Capstone-Project/',
+    sourceLink: 'https://github.com/NewtonOmbese/Newton-Capstone-Project',
   },
   {
     id: 1,
-    title: 'Multi-Post Stories Gain+Glory',
-    image: './images/modal-desktop.svg',
-    mobileImage: './images/pop-mobile.svg',
+    title: 'Bofulo Jillo Hair Studio',
+    image: './images/barber-shop.png',
+    mobileImage: './images/barber-shop-mobile.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    liveLink: 'https://newtonombese.github.io/Newton-Portfolio/',
-    sourceLink: 'https://github.com/NewtonOmbese/Newton-Portfolio',
+    technologies: ['CSS', 'Javascript', 'HTML'],
+    liveLink: 'https://newtonombese.github.io/Barber-shop-project/',
+    sourceLink: 'https://github.com/NewtonOmbese/Barber-shop-project',
   },
   {
     id: 2,
-    title: 'Multi-Post Stories Gain+Glory',
-    image: './images/modal-desktop.svg',
-    mobileImage: './images/pop-mobile.svg',
+    title: 'Ramadhan Mubarak',
+    image: './images/ramadhan.png',
+    mobileImage: './images/ramadhan-mobile.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    liveLink: 'https://newtonombese.github.io/Newton-Portfolio/',
-    sourceLink: 'https://github.com/NewtonOmbese/Newton-Portfolio',
+    technologies: ['CSS', 'Javascript', 'HTML', 'Particle.js'],
+    liveLink: 'https://newtonombese.github.io/Ramadhan-Mubarak/',
+    sourceLink: 'https://github.com/NewtonOmbese/Ramadhan-Mubarak',
   },
   {
     id: 3,
-    title: 'Multi-Post Stories Gain+Glory',
-    image: './images/modal-desktop.svg',
-    mobileImage: './images/pop-mobile.svg',
+    title: 'HaipCRM',
+    image: './images/haip.png',
+    mobileImage: './images/haip-mobile.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['Ruby on Rails', 'CSS', 'Javascript', 'HTML'],
-    liveLink: 'https://newtonombese.github.io/Newton-Portfolio/',
-    sourceLink: 'https://github.com/NewtonOmbese/Newton-Portfolio',
+    technologies: ['TailwindCSS', 'CSS', 'React', 'HTML'],
+    liveLink: 'https://melodious-naiad-a806af.netlify.app/',
+    sourceLink: 'https://github.com/NewtonOmbese/haipcrm',
   },
   {
     id: 4,
@@ -104,7 +104,7 @@ for (let i = 0; i < projectInfos.length; i += 1) {
   projectCard.innerHTML = `
       <div class="project-card">
         <div class="project-card_image">
-          
+          <img src="${projectInfos[i].image}" alt="${projectInfos[i].title}project" >
         </div>
         <div class="project-card_details">
           <h3>${projectInfos[i].title}</h3>

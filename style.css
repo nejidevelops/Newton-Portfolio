@@ -243,6 +243,12 @@ nav {
     background-color: #ebf0ee;
   }
 
+  .project-card_image img {
+    object-fit: cover;
+    height: 11.85rem;
+    width: 20.11rem;
+  }
+
   .project-card_details {
     display: grid;
     gap: 20px;
